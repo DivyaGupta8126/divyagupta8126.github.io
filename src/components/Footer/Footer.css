@@ -1,0 +1,53 @@
+.footer
+{
+    height: auto;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--blue);
+}
+
+.footer_icons
+{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.ico
+{
+    size: 3rem;
+}
+
+.foot_para
+{
+    display: block;
+}
+
+.footer a
+{
+    color: black;
+}
+
+@media only screen and (max-width:525px)
+{
+    .footer
+    {
+        margin-top: 12rem;
+    }
+}
+
+@media only screen and (max-width:345px)
+{
+     .ico
+    {
+        size: 1rem;
+    }
+}

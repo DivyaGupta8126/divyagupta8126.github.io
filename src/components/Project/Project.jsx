@@ -28,8 +28,8 @@ const Project = (props) => {
     image: portfolio,
     heading: "Portfolio Website",
     detail: "It is a portfolio website that contains my personal information. It is made using React.",
-    github: "#",
-    livedemo: "#"
+    github: "https://github.com/DivyaGupta8126/divyagupta8126.github.io/tree/master",
+    livedemo: "https://divyagupta8126.github.io/"
 },
 {
     image: android,
